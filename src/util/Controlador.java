@@ -19,7 +19,6 @@ public class Controlador {
 
 
         if(arvTrie != null){
-            //System.out.print(arvTrie.getClass().getSimpleName() + ": ");
 
             //Escolher método
             if(metodo.equals("inserir")){
@@ -47,10 +46,10 @@ public class Controlador {
                     Object dado = this.comando.nextToken("\n").substring(1);
     
                     if(arvTrie.contem((String) dado) == false){
-                        System.out.println(dado + " não foi encontrado");
+                        System.out.println(dado + " é uma senha segura");
                     }
                     else{
-                        System.out.println(dado + " foi encontrado");
+                        System.err.println(dado + " não é uma senha segura");
                     }
                 }else{
                     System.out.println("Dado inválido");
