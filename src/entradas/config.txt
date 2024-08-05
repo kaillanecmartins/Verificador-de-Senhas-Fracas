@@ -1,0 +1,17 @@
+O problema proposto é um Identificador de senhas fracas.
+
+Nesta aplicação várias senhas consideradas "fracas" serão inseridas na estrutura 
+da Árvore Trie implementada na Questão 1 e com o auxílio de um arquivo texto e 
+da função buscar(), a palavra presente no arquivo será buscada e caso esteja
+presente na árvore, será emitido um aviso de "senha fraca".
+
+Na pasta "entrada":
+- no arquivo "listadepalavras.txt" então presentes os dados iniciais que serão carregados automaticamente na estrutura.
+link da lista: https://github.com/0xrdf/Brazilian-wordlist/blob/master/brazilPasswords.txt
+
+- no arquivo "palavra.txt" está presente a senha a ser pesquisada no programa.
+
+para executar o programa siga os passos abaixo: 
+1 - abra o cmd;
+2 - selecione o diretorio da pasta do programa;
+3 - digite "java -jar NOMEDOARQUIVO.jar" sem as aspas.   
